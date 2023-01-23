@@ -1,0 +1,4 @@
+#archivos que no se subiran
+*node_modules
+*src
+*.json
