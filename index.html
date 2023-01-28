@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="festival-music" content="description">
+    <title>Music</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+       <div class="video">
+            <div class="header__contenido">
+                <div class="header__barra container">
+                    <h1 class="header__titulo">THE<span>GEM</span></h1> 
+                <nav class="navegacion">
+                    <a href="#lineup">Line Up</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="#boletos">Boletos VIP</a>
+                    <div><img class="dark" src="build/img/dark-mode.svg" alt="dark-mode"></div>
+                </nav>
+                </div>
+    
+                <div class="legend">
+                    <h2>LEGENDARY MUSIC FESTIVAL</h2>
+               </div>
+            </div>
+
+            <video autoplay muted loop>
+                <source src="/video/video.mp4" type="video/mp4">
+                <source src="/video/video.webm" type="video/webm">
+            </video>
+       </div>
+    </header>
+
+    <section class="festival container seccion">
+        <div class="festival__contenido">
+            <picture class="festival__imagen">
+                <source srcset="/build/img/muse/1.webp" type="image/webp">
+                <source srcset="/build/img/muse/1.avif" type="image/avif">
+                <img loading="lazy" src="build/img/muse/1.jpg" alt="legends rock">
+            </picture>
+
+            <div class="festival__informacion">
+
+                <h1>Rock & EDM Festival</h1>
+                <p class="festival__bg">Agosto 2022, Estado De Mexico, Mexico.</p>
+                <p>Muse es un conjunto británico que inició su carrera con Radiohead como 
+                    principal influencia, tanto en sonido como en atmósferas de ambientes oscuros, 
+                    melodramáticos, paranoicos, viscerales…
+
+                    Esa música derivativa de Muse, de indudable capacidad en la composición y trascendencia emocional, 
+                    se desarrolló de forma interesante con propuestas prog-rock y art-rock en sus arreglos y producción.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="lineup container seccion" id="lineup">
+        <h2>Line Up</h2>
+        <p>Viernes 21</p>
+        <div class="lineup__contenidos">
+            <div class="lineup__contenido bg-amarillo rock">
+                <h3 class="titulo">Escenario Rock</h3>
+                <ul>
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+               
+                </ul>
+            </div><!--rock-->
+            <div class="lineup__contenido bg-verde edm">
+                <h3 class="titulo">Escenario EDM</h3>
+                <ul>
+                    <li>
+                        24:00 | <span>Deadmaus</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>
+                
+                </ul>
+            </div><!--edm-->
+        </div>
+        <p>Sabado 22</p>
+
+        <div class="lineup__contenidos">
+            <div class=" lineup__contenido bg-amarillo rock">
+                <h3 class="titulo">Escenario Rock</h3>
+                <ul>
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                </ul>
+            </div><!--rock-->
+            <div class="lineup__contenido bg-verde edm">
+                <h3 class="titulo">Escenario EDM</h3>
+                <ul>
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div><!--edm-->
+        </div>
+    </main>
+
+    <section class="galeria container seccion" id="galeria">
+        <h2>Galeria</h2>
+            <ul class="galeria__contenido"></ul>
+    </section>
+
+    <section class="boletos container" id="boletos">
+        <h1>Boletos</h1>
+        <form class="formulario" autocomplete="off">
+            <fieldset>
+                <legend>Contactanos para obtener tus boletos</legend>
+
+            <div class="campos">
+
+                <div class="campo">    
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre">
+                </div><!--campo-->          
+
+                <div class="campo">
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu Telefono">
+                </div><!--campo-->     
+
+                <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Tu Email">
+                </div><!--campo-->            
+
+                <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div><!--campo-->          
+
+            </div><!--campos-->
+
+                <div class="enviar">
+                    <input class="btn-enviar" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>Todos los derechos reservado Uriel Diaz Teodosio &copy;2023</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
