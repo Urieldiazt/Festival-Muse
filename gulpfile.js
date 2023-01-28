@@ -65,7 +65,6 @@ function versionImageMin(done){
 function javaScript(done){
     src('src/js/**/*.js')
         .pipe(sourceMaps.init())
-        .pipe(terser())
         .pipe(sourceMaps.write('.'))
         .pipe(dest('build/js'))
 
